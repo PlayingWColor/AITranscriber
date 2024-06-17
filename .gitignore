@@ -1,2 +1,5 @@
 in/*
 out/*
+
+!in/.ignore
+!out/.ignore
