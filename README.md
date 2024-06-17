@@ -5,3 +5,9 @@ Whisper can be resource intensive and take some time to process, especially on l
 ### Setup
 Install Python
 Follow instructions here to set up Whisper - https://github.com/openai/whisper
+
+### How to Use
+1. Put audio files into 'in' folder.
+2. (Optional) Set model in settings.json. You can open json files with a text editor.
+3. Run RUN.bat
+4. Check "out" folder for transcript
