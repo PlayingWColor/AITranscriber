@@ -4,6 +4,7 @@ Whisper can be resource intensive and take some time to process, especially on l
 
 ### Setup
 Install Python
+
 Follow instructions here to set up Whisper - https://github.com/openai/whisper
 
 ### How to Use
