@@ -18,7 +18,7 @@ for file in all_files:
         continue
 
     result = model.transcribe(in_dir+file)
-    print("Finished! Check the \"out\" folder to see the results.")
+    print("Finished "+file+"! Check the \"out\" folder to see the results.")
 
     output = open(out_dir+file[:-4]+".txt", 'w', encoding="utf-8")
     output.write("".join([s["text"]+"\n" for s in result["segments"]]))
